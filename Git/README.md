@@ -79,3 +79,31 @@ O git , também:
 * verifica a integridade dos arquivos , utilizando algoritmos de hash (SHA1)
 * realiza suas operações de forma local , o que é benéfico caso não se está conectado a internet
 
+
+
+
+
+### Os três estados 
+
+Git possui três estados de arquivos:
+
+* **commited** : os mudanças já foram salvas de forma permanente na base de dados.
+* **modified**: os arquivos foram alterados , mas ainda não foram salvos na base de dados
+* **staged**: são os arquivos que farão parte do próximo commit.
+
+Além dos status, o git armazena os arquivos em diferentes seções
+
+* **.git repository** : repositório que armazena alguns metadados e o banco de dados de objetos
+* **working directory** : possui um cópia da última versão. Os arquivos alterados e não slavos são armazenados no working directory.
+* **staging area (ou index)**: aqui ficam os arquivos escolhidos para fazer parte do próximo commit e ser armazenado de forma permanente.
+
+
+
+<div align="center"><img src="./images/tres-estados.png"></div>
+
+o fluxo de trabalho fica assim :
+
+1. Modifica os arquivos no working directory
+2. Envia os arquivos modificados para staging area que amazena o conteúdo do próximo commit
+3. Commita os arquivos armazenando-os de forma permanente no repositório git
+

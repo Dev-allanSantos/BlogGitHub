@@ -16,3 +16,11 @@ $ git config --global user.email email@email.com // define o email
 $ git config --global user.nickname usuarioNickname //define o apelido do usuario
 ```
 
+
+
+### Visualizar as configurações
+
+```
+git config --list
+```
+

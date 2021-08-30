@@ -21,6 +21,24 @@ $ git config --global user.nickname usuarioNickname //define o apelido do usuari
 ### Visualizar as configurações
 
 ```
-git config --list
+$ git config --list
+
+user.email=allan.gama720@gmail.com
+user.nickname=Dev-allanSantos
+user.name=Allan dos Santos
+email.name=allan.gama720@gmail.com
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+:
+```
+
+
+
+Também é possível pesquisar por uma variável específica:
+
+```
+$ git config user.name
+Allan dos Santos
 ```
 

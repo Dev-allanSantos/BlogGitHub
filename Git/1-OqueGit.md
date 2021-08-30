@@ -40,7 +40,7 @@ Esse sistema oferece algumas vantagens e desvantagens. A vantagem principal de u
 
 ##### Sistemas de controle de versão distribuídos (DVCSs)
 
- Em um modelo distribuído, cada cliente contribuindo através de um  servidor central pode também ter uma cópia completa do projeto presente no servidor em sua máquina local. Ter um cópia do completa do projeto significa que o banco de dados que guarda as alterações do projeto pode ser copiado e mantido localmente . Dessa forma, qualquer cliente poderia subir sua versão como backup caso o projeto se corrompe se no servidor.
+ Em um modelo distribuído, cada cliente contribuindo através de um  servidor central pode também ter uma cópia completa do projeto presente no servidor em sua máquina local. Ter um cópia do completa do projeto significa que o banco de dados que guarda as alterações do projeto pode ser copiado e mantido localmente . Dessa forma, qualquer cliente poderia subir sua versão como backup caso o projeto se corrompe  no servidor.
 
 
 

@@ -8,7 +8,7 @@ O git armazena as configurações em variáveis e o lugar onde essa variáveis e
 
 ### Configurando sua identidade
 
-Ao iniciar no git é importante definir algumas configurações para dizer ao git quem você é, dessa forma o git poderá identificar quem fez as alterações
+Ao iniciar no git é importante definir algumas configurações para dizer ao git quem você é e dessa forma o git poderá identificar quem fez as alterações
 
 ```
 $ git config --global user.name "nomeUsuario" //define o nome

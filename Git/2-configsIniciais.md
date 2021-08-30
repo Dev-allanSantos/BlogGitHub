@@ -13,6 +13,6 @@ Ao iniciar no git é importante definir algumas configurações para dizer ao gi
 ```
 $ git config --global user.name "nomeUsuario" //define o nome
 $ git config --global user.email email@email.com // define o email
-$ git config global user.nickname usuarioNickname //define o apelido do usuario
+$ git config --global user.nickname usuarioNickname //define o apelido do usuario
 ```
 

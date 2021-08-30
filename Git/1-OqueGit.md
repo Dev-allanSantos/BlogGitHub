@@ -62,7 +62,7 @@ Esse sistema oferece algumas vantagens e desvantagens. A vantagem principal de u
 
 ##### Como o git armazena seus dados ?
 
-O git armazena e pensa os dados de uma forma diferente se comparado com outros VCSs. Em outros programas de versionamento é considerado um arquivos base e cada alteração gera um arquivo novo,  representando uma versão diferente.
+O git armazena e pensa os dados de uma forma diferente se comparado a outros VCSs. Em outros programas de versionamento é considerado um arquivos base e cada alteração gera um arquivo novo,  representando uma versão diferente.
 
  
 

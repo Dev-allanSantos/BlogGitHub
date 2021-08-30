@@ -68,7 +68,7 @@ O git armazena e pensa os dados de uma forma diferente se comparado a outros VCS
 
 <div align="center"><img src="./images/vcsAntigo.png"></div>
 
-No git , cada vez que  um commit é realizado é como se foto fosse tirada de todos seus arquivos e a referência é a esse conjunto de arquivos é armazenada na sua base de dados. Caso um arquivo não tenha sido alterado de uma versão para outra , o git não salvará esse arquivo novamente, ao em vez disso somente a ultima versão será recuperada e mantida.
+No git , cada vez que  um commit é realizado é como se foto fosse tirada de todos seus arquivos e a referência  a esse conjunto de arquivos é armazenada na sua base de dados. Caso um arquivo não tenha sido alterado de uma versão para outra , o git não salvará esse arquivo novamente, ao em vez disso somente a ultima versão será recuperada e mantida.
 
 
 
@@ -87,14 +87,14 @@ O git , também:
 
 Git possui três estados de arquivos:
 
-* **commited** : os mudanças já foram salvas de forma permanente na base de dados.
+* **commited** : as mudanças já foram salvas de forma permanente na base de dados.
 * **modified**: os arquivos foram alterados , mas ainda não foram salvos na base de dados
 * **staged**: são os arquivos que farão parte do próximo commit.
 
 Além dos status, o git armazena os arquivos em diferentes seções
 
 * **.git repository** : repositório que armazena alguns metadados e o banco de dados de objetos
-* **working directory** : possui um cópia da última versão. Os arquivos alterados e não slavos são armazenados no working directory.
+* **working directory** : possui um cópia da última versão. Os arquivos alterados e não salvos são armazenados no working directory.
 * **staging area (ou index)**: aqui ficam os arquivos escolhidos para fazer parte do próximo commit e ser armazenado de forma permanente.
 
 

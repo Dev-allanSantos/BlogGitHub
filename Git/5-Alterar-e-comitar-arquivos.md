@@ -30,7 +30,7 @@ O fluxo fica assim :
 2. usa ``git add .`` para preparar os arquivos
 3. usa ``git commit -m "mensagem"`` para comitar
 
-obs: o comando git add também pode ser especificado para adicionar um arquivos ou diretório:
+obs: o comando git add também pode ser especificado para adicionar um arquivo ou diretório:
 
 ```
 //adiciona o arquivo README.md
@@ -45,3 +45,29 @@ git add --help
 ```
 
  
+
+**Exemplo prático**
+
+para este exemplo usarei este repositório que já foi inicializado com Git e realizaremos as seguintes tarefas:
+
+1. adicionar um novo arquivo *.md e verificar o status
+2. alterar um arquivos já existente e verificar o status
+3. commitar as alterações
+
+
+
+
+
+**Etapa 1**
+
+Na raiz do meu repositório existem os seguintes arquivos:
+
+- .git/
+
+- Git/
+- README.md
+
+
+
+<div><img src="./images/repoAntigo.png"></div>
+

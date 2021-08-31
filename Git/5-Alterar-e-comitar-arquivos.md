@@ -18,7 +18,7 @@ Os documentos presentes no working directory podem estar em dois estados fundame
 
 
 
-<div><img src="./images/cicloVida.png"></div>
+<div align="center"><img src="./images/cicloVida.png"></div>
 
 
 
@@ -69,5 +69,5 @@ Na raiz do meu repositório existem os seguintes arquivos:
 
 
 
-<div><img src="./images/repoAntigo.png"></div>
+<div align="center"><img src="./images/repoAntigo.png"></div>
 

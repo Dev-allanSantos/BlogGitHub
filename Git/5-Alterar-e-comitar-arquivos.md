@@ -109,8 +109,16 @@ Este é output completo do comando git status neste exato momento:
 
 Nesta etapa é preciso comitar, ou seja, salvar de forma permanente, esse novos arquivos e as alterações. O próximo passo no fluxo, é levar esses documentos para a staging area, pois ela contem os arquivos que devem fazer parte do próximo commit. Para fazer isso  usarei o comando `git add .`
 
-
+<div align="center"><img src="./images/gitAdd.png"></div>
 
 
 
 Por fim,  basta declarar o comando `git commit -m "mensagem"` passando uma mensagem que serve para dizer qual alterações foram feitas e talvez o motivo da alteração.  
+
+<div align="center"><img src="./images/gitCommit.png"></div>
+
+
+
+<div align="center"><img src="./images/statusCommit.png"></div>
+
+O status depois de um commit diz que não há nada para comitar , portanto os arquivos estão no estado de **unmodified** . 

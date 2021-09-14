@@ -11,8 +11,10 @@ A internet é uma grande rede global de computadores conectados, em outras palav
 
 
 
+<details>
+ <summary> Estruturas 🦴 </summary>
 
-### Estruturas de rede
+ ### Estruturas de rede
 
 Para construir uma rede é necessário que ao menos dois computadores estejam conectados entre si , seja via cabo Ethernet ou via rede sem fio. Esta unidade configura um rede chamada, **rede ponto-a-ponto (peer-to-peer)** , a menor rede possível. 
 
@@ -35,12 +37,16 @@ Para simplificar esta topologia  é preciso usar um **roteador**. Este dispositi
 
 
 Nessa topologia, é necessário apenas dez cabos e um plug/porta em cada computador.
+ 
+</details>
 
 
-
-#### Como o roteador consegue enviar a mensagem para o destino correto ?
-
-Através de um endereço lógico chamado **ip**. O ip pode ser entendido, de forma análoga , ao endereço da sua casa. O endereço residencial identifica unicamente sua casa no meio de tantas outras e é este endereço que serviços de entrega consultam na hora de entregar uma encomenda destinada à você.
+<details>
+ 
+ <summary> Como o roteador consegue enviar a mensagem para o destino correto ? </summary>
+<br>
+  
+Através de um endereço lógico chamado **ip**. O ip pode ser entendido, de forma análoga , ao endereço da sua casa. O endereço residencial identifica unicamente sua  casa no meio de tantas outras e é este endereço que serviços de entrega consultam na hora de entregar uma encomenda destinada à você.
 
 
 
@@ -56,9 +62,11 @@ O computador C deseja enviar pacotes para o computador D. Para isso , o computad
 
 Em resumo é o endereço ip que garante que um determinado pacote alcance um destino pré-determinado.
 
+</details>
 
-
-### Redes de redes
+<details>
+ <summary>Redes de redes 	🕸️</summary>
+<br>
 
 
 

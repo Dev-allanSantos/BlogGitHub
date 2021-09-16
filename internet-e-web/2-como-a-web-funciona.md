@@ -19,3 +19,47 @@ Em uma rede de computadores existem diferentes tipos de dispositivos de acordo c
 
 <div align="center"><img src="./images/cliente-servidor.png" alt="a esquerda simbolo de dois computadores que representam os clientes. Desses símbolos sai uma seta apontando para a direita e escrito requisições. A direita da imagem esta um simbolo de nuvem que representa o servidor. Desse símbolo sai uma seta apontando para a esquerda e escrito respostas." width="650px"></div>
 
+
+
+**Outros personagens**
+
+Além de clientes e servidores existem outros serviços que possibilitam a pesquisa de um site através de um navegador. Imagine a web como uma rua, em uma das pontas fica sua casa e na outro ponta está um shopping onde você deseja fazer compras. Abaixo são apresentados alguns outros serviços que possibilitam essa tarefa/metáfora:
+
+* **Conexão com a Internet** : permiti o trânsito de dados e pacotes, semelhante a rua entre sua casa e o shopping.
+
+* **TCP/IP**: são protocolos de comunicação que determinam a forma como dados e pacotes são encaminhados. Na nossa metáfora seria como escolher ir à pé ou  de carro até o shopping.
+
+* **DNS**: Domain Name Server é um protocolo que se assemelha a um livro de endereços para websites. Quando pesquisamos por um site no navegador, inserimos o domínio(nome) do site, no entanto o navegador não sabe localizar o servidor, onde está armazenado o website, através do nome. Para isso, é necessário o endereço ip do servidor. O papel do DNS é associar esse domínios aos respectivos endereços IPs.
+
+* **HTTP:** Hypertext Transfer Protocol é um protocolo de aplicação. Ele funciona como uma linguagem auxiliando a troca de arquivos multimídias entre o servidor e o cliente.  É como se fosse a linguagem que você usa para se comunicar com o vendedor de uma loja. 
+
+* **Websites:** Sites são feitos por tipos de arquivos. Os dois principais tipos são:
+
+  * arquivos de código: Websites são fundamentalmente construídos por arquivos HTML, CSS e Javascript.
+
+  * assets : todos outros arquivos que compõem um website, como por exemplo: Imagem, vídeos , PDFs, documento Word e etc.
+
+
+
+
+
+**O fluxo do Website**
+
+ O passo-a-passo  quando um site é pesquisado no navegador:
+
+
+
+1. O navegador vai até o servidor DNS e pergunta qual é o real endereço ip do domínio que foi pesquisado. Isso é necessário, para que o navegador siaba em qual servidor o website está armazenado.
+2. O navegador envia uma requisição HTTP ao servidor , pedindo uma cópia do website para o cliente.
+3. Se o servidor aprovar a requisição do cliente , ele enviará uma mensagem com status de : "200 Ok", que significa "Ok, aqui está a cópia do website que vc precisa" . A partir daí os arquivos do site são enviados através de pequenos pedaços chamados de pacotes de dados.
+4. O navegador reúne esse pequenos pedaços e carrega o website completo para que você possa visualizar.
+
+
+
+<div align="center"><img src="./images/requisitar-website.png"></div>
+
+​																		(imagem retirada do site : [amazon](https://aws.amazon.com/pt/route53/what-is-dns/))
+
+
+
+Este foi um breve resumo dos atores/serviços envolvidos na requisição de um website

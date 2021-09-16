@@ -2,9 +2,9 @@
 
 
 
-A internet é uma grande rede global de computadores conectados, em outras palavras, a maior rede que existe e é por meio  dessa grande infraestrutura  que a **Web**  é construída.
+A internet é uma grande rede global de computadores conectados, sendo portanto, a maior rede que existe. É por meio  dessa grande infraestrutura  que a **Web**  é construída.
 
- **Internet** e **Web** são conceitos que representam diferentes coisas, enquanto a internet é uma rede global de computadores a web são os serviços construídos em cima dessa rede. 
+ **Internet** e **Web** são conceitos que representam diferentes coisas. Enquanto a internet é uma rede global de computadores, a web são os serviços construídos em cima dessa rede. 
 
 
 
@@ -22,11 +22,19 @@ A troca de dados e serviços entre esses dois computadores foi como a internet c
 
 <div align="center"><img src="./images/rede-ponto-a-ponto.png" alt="dois simbolos que representam dois computadores. Estes pcs estão conectados por um cabo. Esta é uma rede ponto-a-ponto."></div>
 
-Normalmente, uma rede não é composta somente por dois computadores, na verdade é possível adicionar quantos  forem necessários. Digamos, que você deseja conectar 10 computadores, de forma que cada um esteja conectado com todos os outros. Seria necessário 45 cabos e 9 plugs/portas em cada computador. Neste exemplo, a troca de dados ocorre entre todos os computadores , mas apresenta desvantagens. A instalação e manutenção de uma rede parecida com o exemplo abaixo é difícil  e representaria um grande esforço e custo , imagine, por exemplo, manter instalar essa rede entra 250 dispositivos. Como podemos simplificar isso ?  
+Normalmente, uma rede não é composta somente por dois computadores, na verdade é possível adicionar quantos  forem necessários. Digamos, que você deseja conectar 10 computadores, de forma que cada um possa se comunicar com todos os outros. Seria necessário 45 cabos e 9 plugs/portas em cada computador. 
 
 
 
 <div align="center"><img src="./images/rede-estrela.png" alt="10 símbolos que representam 10 computadores. Cada computador se conecta com os outros nove computadores, resultando em uma rede na qual todos os computadores estão conectados entre si. "></div>
+
+
+
+Neste exemplo, a troca de dados ocorre entre todos os computadores , mas apresenta desvantagens. A instalação e manutenção de uma rede parecida com o exemplo acima é difícil  e representaria um grande esforço e custo , imagine, por exemplo, manter instalar essa rede entre 250 dispositivos. Como podemos simplificar isso ?  
+
+
+
+
 
 Para simplificar esta topologia  é preciso usar um **roteador**. Este dispositivo especial é responsável por receber as informações de um computador e garantir que essa informações cheguem no computador de destino. Por exemplo, se pcA deseja enviar uma mensagem ao computador B , o pc A deve enviar a mensagem para o  roteador e , então, a mensagem é encaminhada para o pc B.
 
@@ -37,15 +45,15 @@ Para simplificar esta topologia  é preciso usar um **roteador**. Este dispositi
 
 
 Nessa topologia, é necessário apenas dez cabos e um plug/porta em cada computador.
- 
+
 </details>
 
 
 <details>
- 
+
  <summary> Como o roteador consegue enviar a mensagem para o destino correto ? </summary>
 <br>
-  
+
 Através de um endereço lógico chamado **ip**. O ip pode ser entendido, de forma análoga , ao endereço da sua casa. O endereço residencial identifica unicamente sua  casa no meio de tantas outras e é este endereço que serviços de entrega consultam na hora de entregar uma encomenda destinada à você.
 
 
@@ -56,7 +64,9 @@ Em redes, o endereço ip é também um identificador único que representa um di
 
 **Exemplo**
 
-O computador C deseja enviar pacotes para o computador D. Para isso , o computador C envia esse pacote para o roteador com endereço de ip destino, que representa o dispositivo que deve receber o pacote. O roteador lê o endereço de destino e consulta em sua tabela para ver se ele conhece esse dispositivo ou o roteador mais próximo que possivelmente conhece o computador alvo. Caso o roteador ache alguma correspondência , ele encaminha o pacote em direção ao destino.
+O computador C deseja enviar pacotes para o computador D. Para isso , o computador C envia esse pacote para o roteador com o endereço de ip de destino, que representa o dispositivo que deve receber o pacote. O roteador lê o endereço de destino e consulta em sua tabela para ver se ele conhece esse dispositivo ou o roteador mais próximo que possivelmente conhece o computador alvo. Caso o roteador ache alguma correspondência , ele encaminha o pacote em direção ao destino.
+
+Quando o pacote atinge o dispositivo alvo , o computador verifica e analisa o campo de endereço IP de destino. Se esse ip corresponder ao ip do computador então o pacote é aceito, caso contrário ele é negado.
 
 
 
@@ -76,7 +86,7 @@ A internet é formada por milhares de redes e por isso um único roteador não d
 
 <div align="center"><img src="./images/redes-de-redes.png"></div>
 
- A rede demonstrada acima se aproxima um pouco do que se conhece por internet , mas ainda faltam alguns fatores. Como é possível  que da sua rede local você se conecte com outras pessoas em diferentes partes do mundo? Para tal tarefa seria necessário criar toda uma infraestrutura de cabeamento que conectasse minha rede as redes que eu preciso alcançar. A boa notícia é que  cabeamento de telefone já fornece a infraestrutura necessária . 
+ A rede demonstrada acima se aproxima um pouco do que se conhece por internet , mas ainda faltam alguns fatores. Como é possível  que da sua rede local você se conecte com outras pessoas em diferentes partes do mundo? Para tal tarefa seria necessário criar toda uma infraestrutura de cabeamento que conectasse a rede local com as redes remotas que eu preciso alcançar. A boa notícia é que o   cabeamento de telefone já fornece a infraestrutura necessária .  A imagem abaixo demonstra uma rede local conectada ao cabeamento de telefone , permitindo o fluxo de dados com outros locais.
 
 <div align="center"> <img src="./images/rede-dsl.png"> </div>
 

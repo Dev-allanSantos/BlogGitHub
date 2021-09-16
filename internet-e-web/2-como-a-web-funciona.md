@@ -17,5 +17,5 @@ Em uma rede de computadores existem diferentes tipos de dispositivos de acordo c
 
 
 
-<div align="center"><img src="./images/cliente-servidor.png" alt="a esquerda simbolo de dois computadores que representam os clientes. Desses símbolos sai uma seta apontando para a direita e escrito requisições. A direita da imagem esta um simbolo de nuvem que representa o servidor. Desse símbolo sai uma seta apontando para a esquerda e escrito respostas."></div>
+<div align="center"><img src="./images/cliente-servidor.png" alt="a esquerda simbolo de dois computadores que representam os clientes. Desses símbolos sai uma seta apontando para a direita e escrito requisições. A direita da imagem esta um simbolo de nuvem que representa o servidor. Desse símbolo sai uma seta apontando para a esquerda e escrito respostas." width="650px"></div>
 

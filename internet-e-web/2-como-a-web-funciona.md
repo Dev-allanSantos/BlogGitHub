@@ -7,9 +7,9 @@ Você já se perguntou ou teve curiosidade em saber o que acontece por trás das
 leia o texto no qual me baseei e retirei a maioria dos exemplos: [how the web works - mdn docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)  
 
 
-
-**tipos de computadores**
-
+<details>
+ <summary>tipos de computadores 🖥️ </summary>
+<br>
 Em uma rede de computadores existem diferentes tipos de dispositivos de acordo com a função que eles exercem na rede. Os dois principais são:
 
 * **Clientes**: são os dispositivos que consomem arquivos e serviços presentes em uma rede. Exemplo: computadores de usuários comuns conectados a internet e que acessam um website através do navegador.
@@ -19,11 +19,13 @@ Em uma rede de computadores existem diferentes tipos de dispositivos de acordo c
 
 <div align="center"><img src="./images/cliente-servidor.png" alt="a esquerda simbolo de dois computadores que representam os clientes. Desses símbolos sai uma seta apontando para a direita e escrito requisições. A direita da imagem esta um simbolo de nuvem que representa o servidor. Desse símbolo sai uma seta apontando para a esquerda e escrito respostas." width="650px"></div>
 
+</details>
 
+<details>
+ <summary>Outros personagens 🚻 </summary>
+<br>
 
-**Outros personagens**
-
-Além de clientes e servidores existem outros serviços que possibilitam a pesquisa de um site através de um navegador. Imagine a web como uma rua, em uma das pontas fica sua casa e na outro ponta está um shopping onde você deseja fazer compras. Abaixo são apresentados alguns outros serviços que possibilitam essa tarefa/metáfora:
+ Além de clientes e servidores existem outros serviços que possibilitam a pesquisa de um site através de um navegador. Imagine a web como uma rua, em uma das pontas fica sua casa e na outro ponta está um shopping onde você deseja fazer compras. Abaixo são apresentados alguns outros serviços que possibilitam essa tarefa/metáfora:
 
 * **Conexão com a Internet** : permiti o trânsito de dados e pacotes, semelhante a rua entre sua casa e o shopping.
 
@@ -39,12 +41,12 @@ Além de clientes e servidores existem outros serviços que possibilitam a pesqu
 
   * assets : todos outros arquivos que compõem um website, como por exemplo: Imagem, vídeos , PDFs, documento Word e etc.
 
+</details>
 
 
-
-
-**O fluxo do Website**
-
+<details>
+<summary>O fluxo do Website ➡️ </summary>
+<br>
  O passo-a-passo  quando um site é pesquisado no navegador:
 
 
@@ -63,3 +65,4 @@ Além de clientes e servidores existem outros serviços que possibilitam a pesqu
 
 
 Este foi um breve resumo dos atores/serviços envolvidos na requisição de um website
+</details>

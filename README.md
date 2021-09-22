@@ -16,6 +16,7 @@ Caso você encontre algum erro ou tenha alguma sugestão de como melhorar a expl
 
 * [Git](https://github.com/Dev-allanSantos/BlogGitHub/tree/master/Git)
 * [Internet e Web](https://github.com/Dev-allanSantos/BlogGitHub/tree/master/internet-e-web)
+* [HTML5](https://github.com/Dev-allanSantos/BlogGitHub/tree/master/HTML)
 <!--te-->
 
   

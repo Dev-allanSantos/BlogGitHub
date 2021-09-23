@@ -36,5 +36,5 @@ No exemplo acima , o html interpreta as tags `<p></p>` como um novo elemento . A
 
 
 
-<div align="center"><img src="./images/entidades-html.jpg"></div>
+<div align="center"><img src="./images/entidades-html.jpg" width="500px"></div>
 
